@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="login.css" rel="stylesheet"/> <!-- cambiar la referencia al css final-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <script defer src="carruselEjemplo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <section class="titulo">
+        <div class="titulo--caja">
+            <p>GYM LAYN</p>
+        </div>
+        <div class="subtitulo--caja">
+            <p class="texto">Acceder</p>
+        </div>
+    </section>
+    
+
+    <section class="container--teclado">
+        <div class="container--teclado__caja">
+            <input type="text" class="input" id="texto"  />
+        </div>
+
+        <div class="container--teclado__caja">
+
+            <div class="teclado"><button class="button" id="uno" type="button" onclick="AddNumber('1')" >1</button></div>
+            <div class="teclado"><button class="button" id="dos" type="button" onclick="AddNumber('2')">2</button></div>
+            <div class="teclado"><button class="button" id="tres" type="button" onclick="AddNumber('3')">3</button></div>
+            <div class="teclado"><button class="button" id="cuatro" type="button" onclick="AddNumber('4')">4</button></div>
+            <div class="teclado"><button class="button" id="cinco" type="button" onclick="AddNumber('5')">5</button></div>
+            <div class="teclado"><button class="button" id="seis" type="button" onclick="AddNumber('6')">6</button></div>
+            <div class="teclado"><button class="button" id="siete" type="button" onclick="AddNumber('7')">7</button></div>
+            <div class="teclado"><button class="button" id="ocho" type="button" onclick="AddNumber('8')">8</button></div>
+            <div class="teclado"><button class="button" id="nueve" type="button" onclick="AddNumber('9')">9</button></div>
+            <div class="teclado"><button class="button" id="borrar" type="button" onclick="Borrar()">Borrar</button></div>
+            <div class="teclado"><button class="button" id="cero" type="button" onclick="AddNumber('0')">0</button></div>
+            <div class="teclado"><button class="button" id="entrar" type="button">Entrar</button></div>
+        </div>
+    </section>
+</body>
+</html>
