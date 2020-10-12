@@ -12,8 +12,12 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&family=Raleway:ital@0;1&display=swap" rel="stylesheet"/>
+    <link href="Design/Styles.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -46,23 +50,29 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">GYM LYAN</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                    <ul class="nav navbar-nav menus">
+                        <li><a runat="server" href="~/Portal/Login">Socio</a></li>
+                        <li><a runat="server" href="~/Portal/horarios">Horarios</a></li>
+                        <li><a runat="server" href="~/Portal/LoginAdmin">Administrador</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+        <div class=" body-content">
+             <section class="titulo">
+                    <div class="titulo--caja">
+                        <p>GYM LAYN</p>
+                    </div>                   
+                </section>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+               
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - chantaolorigel@hotmail.com creation...</p>
             </footer>
         </div>
 

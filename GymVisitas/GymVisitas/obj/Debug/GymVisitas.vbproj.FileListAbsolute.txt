@@ -54,6 +54,7 @@ C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Antlr3.Runtime.dll
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\EPPlus.dll
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Microsoft.AspNet.FriendlyUrls.dll
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -63,12 +64,12 @@ C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Microsoft.Web.Infrastructure.d
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Newtonsoft.Json.dll
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\System.Web.Optimization.dll
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\WebGrease.dll
+C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\EPPlus.xml
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\System.Web.Optimization.xml
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Newtonsoft.Json.xml
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Antlr3.Runtime.pdb
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\obj\Debug\GymVisitas.vbprojAssemblyReference.cache
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\obj\Debug\GymVisitas.Resources.resources
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\obj\Debug\GymVisitas.vbproj.GenerateResource.cache
 C:\Users\Chant\PROJECTS\GymVisitas\GymVisitas\obj\Debug\GymVisitas.vbproj.CoreCompileInputs.cache
